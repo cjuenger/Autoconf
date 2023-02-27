@@ -1,4 +1,4 @@
-# AutofacConfig
+# Autoconf
 
 **Autoconf** is a very small extension library for **Autofac**. It allows to register _specialized_ configuration classes at Autofac's ContainerBuilder seamlessly.
 
