@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{AE7B0CD3-732E-4535-A006-08851128C984}"
+	ProjectSection(SolutionItems) = preProject
+		..\README.md = ..\README.md
+		..\.gitignore = ..\.gitignore
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Workflows", "Workflows", "{D98BB913-6287-4B49-85D1-3945F1A02257}"
+	ProjectSection(SolutionItems) = preProject
+		..\.github\workflows\test-and-cover.yml = ..\.github\workflows\test-and-cover.yml
+		..\.github\workflows\publish-nuget.yml = ..\.github\workflows\publish-nuget.yml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Io.Juenger.Autoconf.Tests", "Io.Juenger.Autoconf.Tests\Io.Juenger.Autoconf.Tests.csproj", "{FB1CEED3-9BE8-4103-AF8F-F1BD49C27928}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Autoconf.Build", "..\build\Autoconf.Build.csproj", "{D71FF2A4-14DA-45B1-BF6C-CDC8606659B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Io.Juenger.Autoconf", "Io.Juenger.Autoconf\Io.Juenger.Autoconf.csproj", "{AAAE5A69-D86E-44AD-BE76-3F26185C3F1E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D71FF2A4-14DA-45B1-BF6C-CDC8606659B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D71FF2A4-14DA-45B1-BF6C-CDC8606659B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB1CEED3-9BE8-4103-AF8F-F1BD49C27928}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB1CEED3-9BE8-4103-AF8F-F1BD49C27928}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB1CEED3-9BE8-4103-AF8F-F1BD49C27928}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB1CEED3-9BE8-4103-AF8F-F1BD49C27928}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAAE5A69-D86E-44AD-BE76-3F26185C3F1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAAE5A69-D86E-44AD-BE76-3F26185C3F1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAAE5A69-D86E-44AD-BE76-3F26185C3F1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAAE5A69-D86E-44AD-BE76-3F26185C3F1E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D98BB913-6287-4B49-85D1-3945F1A02257} = {AE7B0CD3-732E-4535-A006-08851128C984}
+	EndGlobalSection
+EndGlobal

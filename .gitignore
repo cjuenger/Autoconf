@@ -1,0 +1,11 @@
+src/.idea/
+src/io.juenger.autofacconfigregistration/bin/
+src/io.juenger.autofacconfigregistration/obj/
+/build/bin
+/build/obj
+/src/io.juenger.autoconf/bin
+/src/io.juenger.autoconf/obj
+/.nuke/temp
+src/Io.Juenger.Autoconf.Tests/bin/
+src/Io.Juenger.Autoconf.Tests/obj/
+/output
